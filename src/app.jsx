@@ -6,6 +6,11 @@ const Stack = createNativeStackNavigator();
 
 export default function App()
 {
+    /**
+     * Este es el componente que se encarga de la navegación de la aplicación.
+     * En este caso, provee la navegación entre las pantallas de la aplicación.
+     * se define una pantalla llamada "Home" y otra llamada "Settings".
+     */
     return (
         <NavigationContainer>
             <Stack.Navigator>
